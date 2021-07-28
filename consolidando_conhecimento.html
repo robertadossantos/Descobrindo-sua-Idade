@@ -1,0 +1,30 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    function descubraIdade(dia, mes, ano) {
+
+        document.write(descubraAno);
+        return dia + mes + ano;
+} 
+
+    var nome = prompt("Informe o seu nome.");
+    var anoAtual = prompt(nome + ", informe o ano que estamos.");
+    var anoNiver = prompt(nome + ", informe o ano em que nasceu.");
+    var conta = anoAtual - anoNiver;
+
+    mostra("Você tem " + conta + " anos.");
+
+</script>
